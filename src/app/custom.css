@@ -1,0 +1,45 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+}
+.header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+}
+.event-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+.event-card:hover {
+  transform: scale(1.02);
+}
+.availability-table {
+  margin-top: 20px;
+}
+.success-msg {
+  color: green;
+  font-weight: bold;
+}
+.error-msg {
+  color: red;
+  font-weight: bold;
+}
+.discount-msg {
+  color: #28a745;
+  font-style: italic;
+}
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+}
